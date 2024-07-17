@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="推流"
+        android:onClick="pushStream"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="拉流"
+        android:onClick="pullStream"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="后台推流"
+        android:onClick="startPush"
+        android:layout_height="wrap_content"/>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:text="停止后台推流"
+        android:onClick="stopPush"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>
